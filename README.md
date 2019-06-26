@@ -2,7 +2,7 @@
 
 A very simple console application that scrapes product information from Americanas.
 
-## Installing the dependencies
+## How to use it
 
 First, install the dependencies by running the following command at the base folder:
 
