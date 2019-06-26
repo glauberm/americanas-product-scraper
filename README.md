@@ -2,17 +2,15 @@
 
 A very simple console application that scrapes product information from Americanas.
 
-## Installing
+## Installing the dependencies
 
-To install it, run the following command at the base folder:
+First, install the dependencies by running the following command at the base folder:
 
 ```bash
   npm install
 ```
 
-## Using it
-
-To use it, simply `require` the module and pass it a valid Americanas product URL:
+Then, simply `require` the module and pass it a valid Americanas product URL:
 
 ```js
   const getProduct = require('../americanas-product-scraper');
