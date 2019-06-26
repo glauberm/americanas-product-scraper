@@ -3,8 +3,12 @@
 const getPageHtml = require('./getPageHtml');
 const scrapeHtml = require('./scrapeHtml');
 
-getPageHtml(url, function(html) {
-  const product = scrapeHtml(html);
+function getProduct(url) {
+  getPageHtml(url, function(html) {
+    const product = scrapeHtml(html);
+  
+    console.log(product);
+  });
+}
 
-  console.log(product);
-});
+module.exports = getProduct;
