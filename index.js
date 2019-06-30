@@ -1,7 +1,7 @@
 'use strict';
 
-const getPageHtml = require('./getPageHtml');
-const scrapeHtml = require('./scrapeHtml');
+const getPageHtml = require('./get-page-html');
+const scrapeHtml = require('./scrape-html');
 
 function getProduct(url) {
   getPageHtml(url, function(html) {

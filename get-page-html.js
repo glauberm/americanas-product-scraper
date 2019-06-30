@@ -31,7 +31,7 @@ function getPageHtml(url, callback) {
       if (statusCode >= 200 && statusCode < 300) {
         callback(body);
       } else {
-        console.log('Processo finalizado. A requisição não foi a esperada.')
+        console.log('Processo finalizado. A resposta não foi a esperada.')
       }
     }
   })
